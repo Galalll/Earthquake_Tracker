@@ -7,10 +7,10 @@ body {
 }
 @font-face {
   font-family: "EarthquakeMF";
-  src: url("/webfonts/EarthquakeMF.eot"),
-    url("/webfonts/EarthquakeMF.eot?#") format("embedded-opentype"),
-    url("/webfonts/EarthquakeMF.woff") format("woff"),
-    url("/webfonts/EarthquakeMF.ttf") format("truetype");
+  src: url("./webfonts/EarthquakeMF.eot"),
+    url("./webfonts/EarthquakeMF.eot?#") format("embedded-opentype"),
+    url("./webfonts/EarthquakeMF.woff") format("woff"),
+    url("./webfonts/EarthquakeMF.ttf") format("truetype");
 }
 
 #map {
@@ -43,7 +43,7 @@ body {
 }
 
 .header {
-  background-image: url("/images/Untitled.png");
+  background-image: url("./images/Untitled.png");
   background-color: #f0f7fd;
   background-repeat: no-repeat;
   background-attachment: fixed;
